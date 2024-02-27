@@ -1,0 +1,850 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--flowbite-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!--personal css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container mx-auto flex justify-between bg-green-100 text-black p-8"
+    >
+      <!--Navbar-->
+      <nav class="flex justify-between items-center text-lg py-4 w-full">
+        <div>
+          <img src="logo.png" style="width: 100px; height: 34px" alt="" />
+        </div>
+        <div class="flex items-center justify-end ml-auto">
+          <ul class="text-black flex space-x-6 > * + * max-sm:hidden">
+            <li>Our Service</li>
+            <li>Why Us</li>
+            <li>Testimonial</li>
+            <li>FAQ</li>
+          </ul>
+          <button
+            class="text-white px-4 py-2 rounded-md bg-green-400 max-sm:hidden ml-4"
+          >
+            Register
+          </button>
+        </div>
+        <button class="flex justify-end ml-auto sm:hidden">
+          <img src="menu.png" width="24px" height="24px" />
+        </button>
+      </nav>
+    </div>
+    <div class="container mx-auto flex bg-green-100 text-black px-8">
+      <!--Header-->
+      <div class="py-4 flex">
+        <div class="grid grid-cols-1 md:grid-cols-2 flex flex-col">
+          <div class="flex flex-1 flex-col items-start">
+            <h1 class="text-3xl font-bold">
+              Sewa & Rental Mobil Terbaik di kawasan Surabaya
+            </h1>
+            <p style="text-align: left">
+              Selamat datang di Binar Car Rental. Kami menyediakan mobil
+              kualitas terbaik dengan harga terjangkau. siap melayani
+              kebutuhanmu untuk sewa mobil selama 24 jam.
+            </p>
+            <button class="bg-green-400 font-bold text-white rounded-md p-2">
+              Mulai Sewa Mobil
+            </button>
+          </div>
+          <div class="flex flex-1 justify-end items-center">
+            <img src="car.png" style="width: 784px; height: 407px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto max-sm:flex-col my-8 py-4">
+      <!--Our Service-->
+      <div
+        class="header flex flex-col lg:flex-row items-center text-center lg:text-left"
+        style="display: flex; justify-content: center; align-items: center"
+      >
+        <div style="text-align: center; margin-right: 30px">
+          <img
+            src="mbak.png"
+            style="width: auto; height: 300px; display: block; margin: 0 auto"
+          />
+        </div>
+        <div style="max-width: 600px">
+          <h1 class="text-3xl font-bold">
+            Best Car Rental for any kind of trip in Surabaya!
+          </h1>
+          <p class="my-6">
+            Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+            lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+            kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
+            meeting, dll.
+          </p>
+          <div class="mx-3">
+            <ul
+              class="max-w-md space-y-1 text-black list-inside dark:text-black"
+            >
+              <li class="flex items-center">
+                <svg
+                  class="w-6 h-6 me-2 text-blue-300 dark:text-blue-300 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                  />
+                </svg>
+                Sewa Mobil Dengan Supir di Bali 12 Jam
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-6 h-6 me-2 text-blue-300 dark:text-blue-300 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                  />
+                </svg>
+                Sewa Mobil Lepas Kunci di Bali 24 Jam
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-6 h-6 me-2 text-blue-300 dark:text-blue-300 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                  />
+                </svg>
+                Sewa Mobil Jangka Panjang Bulanan
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-6 h-6 me-2 text-blue-300 dark:text-blue-300 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                  />
+                </svg>
+                Gratis Antar - Jemput Mobil di Bandara
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-6 h-6 me-2 text-blue-300 dark:text-blue-300 flex-shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                  />
+                </svg>
+                Layanan Airport Transfer / Drop In Out
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto max-sm:flex-col my-8 py-4">
+      <!--Why Us?-->
+      <div class="px-8">
+        <h2 class="font-bold text-3xl">Why Us?</h2>
+        <p>Mengapa harus pilih Binar Car Rental?</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10">
+          <div class="card">
+            <div class="border-2 rounded-lg p-3 flex flex-col">
+              <div class="overflow-hidden">
+                <img
+                  src="icon_complete.png"
+                  style="width: 50px; height: 50px"
+                  alt=""
+                />
+              </div>
+              <h3 class="mt-6 font-bold">Mobil Lengkap</h3>
+              <p class="mt-6">
+                Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+                terawat
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="border-2 rounded-lg p-3 flex flex-col">
+              <div class="overflow-hidden">
+                <img
+                  src="icon_price.png"
+                  style="width: 50px; height: 50px"
+                  alt=""
+                />
+              </div>
+              <h3 class="mt-3 font-bold">Harga Murah</h3>
+              <p class="mt-3">
+                Harga murah dan bersaing, bisa bandingkan harga kami dengan
+                rental mobil lain
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="border-2 rounded-lg p-3 flex flex-col">
+              <div class="overflow-hidden">
+                <img
+                  src="icon_24hrs.png"
+                  style="width: 50px; height: 50px"
+                  alt=""
+                />
+              </div>
+              <h3 class="mt-3 font-bold">Layanan 24 Jam</h3>
+              <p class="mt-3">
+                Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+                tersedia di akhir minggu
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="border-2 rounded-lg p-3 flex flex-col">
+              <div class="overflow-hidden">
+                <img
+                  src="icon_professional.png"
+                  style="width: 50px; height: 50px"
+                  alt=""
+                />
+              </div>
+              <h3 class="mt-3 font-bold">Sopir Profesional</h3>
+              <p class="mt-3">
+                Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
+                tepat waktu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto px-8 my-8 md-4">
+      <!--      Testimonial        -->
+      <div class="text-center">
+        <h2 class="text-3xl font-bold">Testimonial</h2>
+        <p>Berbagai review positif dari para pelanggan kami</p>
+      </div>
+      <div
+        id="controls-carousel"
+        class="relative grid grid-cols-1 md:grid-cols-3"
+        data-carousel="static"
+      >
+        <!-- Carousel wrapper -->
+        <div
+          class="w-auto h-56 overflow-hidden rounded hover: rounded-lg md:h-56"
+        >
+          <!-- Item 1 -->
+          <div
+            class="hidden duration-700 ease-in-out border-2 rounded-lg p-3 flex items-center bg-blue-100"
+            data-carousel-item
+          >
+            <img src="mas.png" class="ml-5 w-14 h-14" alt="..." />
+            <div>
+              <img src="Rate.png" class="ml-4 w-13 h-10" alt="..." />
+              <p class="mt-3 mx-4">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <span>
+                <h5 class="mt-3 mx-4 font-semibold">
+                  John Dee 32, Bromo
+                </h5></span
+              >
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div
+            class="hidden duration-700 ease-in-out border-2 rounded-lg p-3 flex items-center bg-blue-100"
+            data-carousel-item="active"
+          >
+            <img src="neng.png" class="ml-5 w-14 h-14" alt="..." />
+            <div>
+              <img src="Rate.png" class="ml-4 w-13 h-10" alt="..." />
+              <p class="mt-3 mx-4">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <span>
+                <h5 class="mt-3 mx-4 font-semibold">
+                  John Dee 32, Bromo
+                </h5></span
+              >
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div
+            class="hidden duration-700 ease-in-out border-2 rounded-lg p-3 flex items-center bg-blue-100"
+            data-carousel-item
+          >
+            <img src="mas.png" class="ml-5 w-14 h-14" alt="..." />
+            <div>
+              <img src="Rate.png" class="ml-4 w-13 h-10" alt="..." />
+              <p class="mt-3 mx-4">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <span>
+                <h5 class="mt-3 mx-4 font-semibold">
+                  John Dee 32, Bromo
+                </h5></span
+              >
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div
+            class="hidden duration-700 ease-in-out border-2 rounded-lg p-3 flex items-center bg-blue-100"
+            data-carousel-item
+          >
+            <img src="neng.png" class="ml-5 w-14 h-14" alt="..." />
+            <div>
+              <img src="Rate.png" class="ml-4 w-13 h-10" alt="..." />
+              <p class="mt-3 mx-4">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <span>
+                <h5 class="mt-3 mx-4 font-semibold">
+                  John Dee 32, Bromo
+                </h5></span
+              >
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div
+            class="hidden duration-700 ease-in-out border-2 rounded-lg p-3 flex items-center bg-blue-100"
+            data-carousel-item
+          >
+            <img src="mas.png" class="ml-5 w-14 h-14" alt="..." />
+            <div>
+              <img src="Rate.png" class="ml-4 w-13 h-10" alt="..." />
+              <p class="mt-3 mx-4">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <span>
+                <h5 class="mt-3 mx-4 font-semibold">
+                  John Dee 32, Bromo
+                </h5></span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="container m-4 px-8">
+      <!--Banner-->
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+        <div class="card">
+          <div
+            class="border-2 rounded-lg p-3 flex flex-col text-center items-center bg-blue-700"
+          >
+            <div class="overflow-hidden">
+              <h3 class="mt-8 font-bold text-3xl text-white">
+                Sewa Mobil di Surabaya Sekarang
+              </h3>
+              <p class="mt-6 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <button
+                class="bg-green-400 font-bold text-white rounded-md p-2 mt-10 my-10"
+              >
+                Mulai Sewa Mobil
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto p-8 md-4">
+      <!--FAQ-->
+      <div class="grid grid-cols-1 md:grid-cols-2 flex flex-col">
+        <div class="px-8 py-8">
+          <h2 class="font-bold text-3xl">Frequently Asked Question</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div
+          id="accordion-flush"
+          data-accordion="collapse"
+          data-active-classes="bg-white dark:bg-gray-100 text-black dark:text-black"
+          data-inactive-classes="text-black-500 dark:text-gray-400"
+        >
+          <h2 id="accordion-flush-heading-1">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-black border-b border-black dark:border-black-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-1"
+              aria-expanded="true"
+              aria-controls="accordion-flush-body-1"
+            >
+              <span>Apa saja syarat yang dibutuhkan?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-1"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-1"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-black dark:text-black-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-2">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-2"
+              aria-expanded="false"
+              aria-controls="accordion-flush-body-2"
+            >
+              <span>Berapa hari minimal sewa mobil lepas kunci?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-2"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-2"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-black dark:text-black-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-3">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-3"
+              aria-expanded="false"
+              aria-controls="accordion-flush-body-3"
+            >
+              <span>Berapa hari sebelumnya sabaiknya booking sewa mobil?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-3"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-3"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-black dark:text-black-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-4">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-4"
+              aria-expanded="false"
+              aria-controls="accordion-flush-body-4"
+            >
+              <span>Apakah Ada biaya antar-jemput?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-4"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-4"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-black dark:text-black-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+              </p>
+            </div>
+          </div>
+          <h2 id="accordion-flush-heading-5">
+            <button
+              type="button"
+              class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+              data-accordion-target="#accordion-flush-body-5"
+              aria-expanded="false"
+              aria-controls="accordion-flush-body-5"
+            >
+              <span>Bagaimana jika terjadi kecelakaan?</span>
+              <svg
+                data-accordion-icon
+                class="w-3 h-3 rotate-180 shrink-0"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5 5 1 1 5"
+                />
+              </svg>
+            </button>
+          </h2>
+          <div
+            id="accordion-flush-body-5"
+            class="hidden"
+            aria-labelledby="accordion-flush-heading-5"
+          >
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-black dark:text-black-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto p-8 md-4">
+      <!--Footer-->
+      <footer class="bg-white dark:bg-white">
+        <div class="mx-auto w-full max-w-screen-xl p-8 py-8 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="grid grid-cols- gap-10 sm:gap-8 sm:grid-cols-4">
+              <div>
+                <h2
+                  class="mb-6 text-sm text-gray-900 uppercase dark:text-black"
+                >
+                  Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
+                  binarcarrental@gmail.com
+                  <br />081-233-334-808
+                </h2>
+              </div>
+              <div>
+                <ul class="text-blac-500 dark:text-black-400 font-semibold">
+                  <li class="mb-2">
+                    <a href="Our services" class="hover:underline"
+                      >Our services</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="Why Us" class="hover:underline">Why Us</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="Testimonial" class="hover:underline"
+                      >Testimonial</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="FAQ" class="hover:underline">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2
+                  class="mb-6 text-sm text-gray-900 uppercase dark:text-black"
+                >
+                  Connect with us
+                </h2>
+                <div class="flex mt-4 sm:justify-center sm:mt-0">
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="16" cy="16" r="16" fill="#0D28A6" />
+                      <path
+                        d="M21 7.66663H18.5C17.395 7.66663 16.3352 8.10561 15.5538 8.88701C14.7724 9.66842 14.3334 10.7282 14.3334 11.8333V14.3333H11.8334V17.6666H14.3334V24.3333H17.6667V17.6666H20.1667L21 14.3333H17.6667V11.8333C17.6667 11.6123 17.7545 11.4003 17.9108 11.244C18.0671 11.0878 18.279 11 18.5 11H21V7.66663Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Facebook page</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="16" cy="16" r="16" fill="#0D28A6" />
+                      <path
+                        d="M20.1666 7.66663H11.8333C9.53211 7.66663 7.66663 9.53211 7.66663 11.8333V20.1666C7.66663 22.4678 9.53211 24.3333 11.8333 24.3333H20.1666C22.4678 24.3333 24.3333 22.4678 24.3333 20.1666V11.8333C24.3333 9.53211 22.4678 7.66663 20.1666 7.66663Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M19.3334 15.475C19.4362 16.1685 19.3178 16.8769 18.9948 17.4992C18.6719 18.1215 18.161 18.6262 17.5347 18.9414C16.9085 19.2566 16.1987 19.3663 15.5065 19.2549C14.8143 19.1436 14.1748 18.8167 13.6791 18.321C13.1833 17.8252 12.8565 17.1857 12.7451 16.4935C12.6337 15.8013 12.7434 15.0916 13.0586 14.4653C13.3739 13.8391 13.8785 13.3281 14.5009 13.0052C15.1232 12.6823 15.8315 12.5638 16.525 12.6667C17.2325 12.7716 17.8874 13.1012 18.3931 13.6069C18.8988 14.1126 19.2285 14.7676 19.3334 15.475Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M20.5834 11.4166H20.5917"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Instagram page</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="16" cy="16" r="16" fill="#0D28A6" />
+                      <path
+                        d="M25.1667 8.49996C24.3687 9.06285 23.4851 9.49338 22.55 9.77496C22.0482 9.19788 21.3812 8.78887 20.6392 8.60323C19.8973 8.41759 19.1163 8.46429 18.4018 8.737C17.6873 9.00972 17.0737 9.49529 16.6442 10.1281C16.2146 10.7608 15.9898 11.5102 16 12.275V13.1083C14.5356 13.1463 13.0844 12.8215 11.7759 12.1628C10.4673 11.5042 9.34197 10.5322 8.50004 9.33329C8.50004 9.33329 5.16671 16.8333 12.6667 20.1666C10.9505 21.3316 8.906 21.9157 6.83337 21.8333C14.3334 26 23.5 21.8333 23.5 12.25C23.4993 12.0178 23.477 11.7863 23.4334 11.5583C24.2839 10.7195 24.8841 9.66055 25.1667 8.49996V8.49996Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Twitter page</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="16" cy="16" r="16" fill="#0D28A6" />
+                      <path
+                        d="M9.33329 9.33337H22.6666C23.5833 9.33337 24.3333 10.0834 24.3333 11V21C24.3333 21.9167 23.5833 22.6667 22.6666 22.6667H9.33329C8.41663 22.6667 7.66663 21.9167 7.66663 21V11C7.66663 10.0834 8.41663 9.33337 9.33329 9.33337Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M24.3333 11L16 16.8333L7.66663 11"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Email page</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="16" cy="16" r="16" fill="#0D28A6" />
+                      <path
+                        d="M19.3333 15.1666V11.8333M23.5 7.66663H8.5V21H12.6667V24.3333L16 21H20.1667L23.5 17.6666V7.66663ZM15.1667 15.1666V11.8333V15.1666Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Twitch account</span>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h2
+                  class="mb-6 text-sm text-gray-900 uppercase dark:text-black"
+                >
+                  Copyright Binar 2022
+                </h2>
+                <div class="mb-6 md:mb-0">
+                  <a href="https://binar.com/" class="flex items-center">
+                    <img src="logo.png" class="h-8 me-3" alt="Binar Logo" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--Flowbite-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
